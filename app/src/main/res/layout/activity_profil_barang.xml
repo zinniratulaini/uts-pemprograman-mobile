@@ -24,7 +24,7 @@
         android:id="@+id/gambarDapur"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/pisau"
+        android:src="@drawable/pisau_2"
         android:scaleType="fitCenter"
         android:layout_marginBottom="16dp"
         />

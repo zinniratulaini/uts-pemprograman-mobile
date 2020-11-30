@@ -15,28 +15,28 @@ public class DataProvider {
     private static List<Elektronik> initDataElektronik(Context ctx) {
         List<Elektronik> elektroniks = new ArrayList<>();
         elektroniks.add(new Elektronik("blender", "Rp 400.000.00",
-                "kegunaan blender adalah untuk mencampur bahan, menghancurkan es batu atau bahan keras lain, membuat smoothie.", R.drawable.blender));
+                "kegunaan blender adalah untuk mencampur bahan, menghancurkan es batu atau bahan keras lain, membuat smoothie.", R.drawable.blender_2));
         elektroniks.add(new Elektronik("ricecooker", "Rp 300.000.00",
-                "ricecooker atau penanak nasi adalah alat listrik yang berfungsi untuk memasak atau menanak nasi.", R.drawable.rice_coker));
+                "ricecooker atau penanak nasi adalah alat listrik yang berfungsi untuk memasak atau menanak nasi.", R.drawable.mejikom_2));
         elektroniks.add(new Elektronik("mixer ", "Rp 250.000.00",
-                "Mikser atau alat pengaduk adalah alat mekanis yang digunakan untuk mencampur bahan adonan yang biasanya digunakan untuk pembuatan kue.. Pencampuran ini dikenal dengan mix dalam bahasa Inggris, sehingga alatnya dikenal dengan nama pencampur ('mixer').", R.drawable.mixer));
+                "Mikser atau alat pengaduk adalah alat mekanis yang digunakan untuk mencampur bahan adonan yang biasanya digunakan untuk pembuatan kue.. Pencampuran ini dikenal dengan mix dalam bahasa Inggris, sehingga alatnya dikenal dengan nama pencampur ('mixer').", R.drawable.mikser_2));
         elektroniks.add(new Elektronik("Microwave ", "Rp 1000.000.00",
-                "Fungsi mendasar pada microwave biasanya dipakai untuk membuat popcorn, memasak mie instan, ataupun mencairkan daging beku.", R.drawable.microwave));
+                "Fungsi mendasar pada microwave biasanya dipakai untuk membuat popcorn, memasak mie instan, ataupun mencairkan daging beku.", R.drawable.oven_2));
         elektroniks.add(new Elektronik("Toaster (Pemanggang Roti)", "Rp 200.000.00",
-                "Fungsi toaster sebagai pemanggang roti menjadi andalan bagi pecinta roti panggang. Alat untuk memanggang roti ini juga memiliki beberapa fitur dan fungsi pada setiap bagian-bagian pentingnya.", R.drawable.panggangan_roti));
+                "Fungsi toaster sebagai pemanggang roti menjadi andalan bagi pecinta roti panggang. Alat untuk memanggang roti ini juga memiliki beberapa fitur dan fungsi pada setiap bagian-bagian pentingnya.", R.drawable.roti));
         return elektroniks;
     }
 
     private static List<Nonelektronik> initDataNonelektronik(Context ctx) {
         List<Nonelektronik> nonelektroniks = new ArrayList<>();
         nonelektroniks.add(new Nonelektronik("Pisau", "Rp 25.000.00",
-                "Pisau ialah alat yang digunakan untuk memotong sebuah benda. Pisau terdiri dari dua bagian utama, yaitu bilah pisau dan gagang atau pegangan pisau.", R.drawable.pisau));
+                "Pisau ialah alat yang digunakan untuk memotong sebuah benda. Pisau terdiri dari dua bagian utama, yaitu bilah pisau dan gagang atau pegangan pisau.", R.drawable.pisau_2));
         nonelektroniks.add(new Nonelektronik("Kompor", "Rp 450.000.00",
-                "alat masak yang menghasilkan panas tinggi. Kompor mempunyai ruang tertutup / terisolasi dari luar sebagai tempat bahan bakar diproses untuk memberikan pemanasan bagi barang-barang yang diletakkan di atasnya.", R.drawable.kompor));
+                "alat masak yang menghasilkan panas tinggi. Kompor mempunyai ruang tertutup / terisolasi dari luar sebagai tempat bahan bakar diproses untuk memberikan pemanasan bagi barang-barang yang diletakkan di atasnya.", R.drawable.kompor_2));
         nonelektroniks.add(new Nonelektronik("Wajan", "Rp 55.000.00",
-                "Satu wajan itu bisa digunakan untuk berbagai fungsi, dari menggoreng, menumis, memanggang, hingga memasak makanan berkuah.  ", R.drawable.wajan));
+                "Satu wajan itu bisa digunakan untuk berbagai fungsi, dari menggoreng, menumis, memanggang, hingga memasak makanan berkuah.  ", R.drawable.teplon_2));
         nonelektroniks.add(new Nonelektronik("Panci", "Rp 65.000.00",
-                "adalah alat masak yang terbuat dari logam (alumunium, baja, dll) dan berbentuk silinder atau mengecil pada bagian bawahnya.", R.drawable.panci));
+                "adalah alat masak yang terbuat dari logam (alumunium, baja, dll) dan berbentuk silinder atau mengecil pada bagian bawahnya.", R.drawable.panci_2));
         nonelektroniks.add(new Nonelektronik("Parutan", "Rp 25.000.00",
                 "adalah sebuah peralatan dapur yang digunakan untuk memarut makanan menjadi potongan-potongan halus.", R.drawable.parutan));
         return nonelektroniks;
